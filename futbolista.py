@@ -14,7 +14,7 @@ class Futbolista(Persona,Deportista):
     def setGolesMarcados(self,goles):
         self._golesMarcados = goles
         
-    def getGolesmarcados(self):
+    def getGolesMarcados(self):
         return self._golesMarcados
         
     def setTarjetasRojas(self,rojas):
